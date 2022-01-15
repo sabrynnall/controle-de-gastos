@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Controle de Gastos</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="reset.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+        
+    </head>
+
+    <body>
+        <main>
+            <section class="secaoInsercaoInformacoes">
+                <h1>Controle de Gastos</h1>
+
+                <div class="formularioEntradaOrcamento">
+                    <h3>Total Orçamento</h3>
+                    <input type="text">
+                    <button>Calcular</button>
+                </div>
+
+                <div class="formularioEntradaDespesa">
+                    <h3>Nome Despesa</h3>
+                    <input type="text" class="formularioEntradaDespesaNome">
+                    <h3>Valor Despesa</h3>
+                    <input type="number" class="formularioEntradaDespesaValor">
+                    <button>Adicionar Despesa</button>
+                </div>
+
+                <div class="containerDespesas">
+                    <div class="containerDespesasCabecalho">
+                        <p class="tituloDespesa">Título Despesa</p>
+                        <p>Valor Despesa</p>
+                    </div>
+
+                    <ul class="containerDespesasLista">
+                        <li>
+                            <h3>Hotel</h3>
+                            <p>R$ 43,00</p>
+                            <img src="img/trash.svg" alt="Ícone Lixeira">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="secaoImpressaoResultados">
+                <div class="secaoImpressaoResultadosOrcamento">
+                    <h3>Orçamento</h3>
+                    <p>+ R$ 0</p>
+                </div>
+
+                <div class="secaoImpressaoResultadosDespesas">
+                    <h3>Despesas</h3>
+                    <p>- R$ 0</p>
+                </div>
+
+                <div class="secaoImpressaoResultadosSaldo">
+                    <h3>Saldo</h3>
+                    <p>R$ 0</p>
+                </div>
+            </section>
+        </main>
+    </body>
+    <script src="script.js "></script>
+</html>
