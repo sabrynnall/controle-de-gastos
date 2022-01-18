@@ -30,7 +30,7 @@
 
 ## Deploy 
 
-Link do projeto: [Clica aqui](https://meucontroledegastos.netlify.app/)
+Link do projeto: [Clica aqui](https://meucontroledegastos.netlify.app/){:target="_blank"}
 
 <br>
 
